@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="IHEP ATLAS ITk" company="IHEP" webLink="" view-date="2018-10-22" view-index="0" gantt-divider-location="511" resource-divider-location="350" version="2.8.9" locale="en">
-    <description><![CDATA[IHEP ATLAS ITk Project]]></description>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="234" order="0"/>
-        <field id="tpd4" name="Begin date" width="71" order="1"/>
-        <field id="tpd5" name="End date" width="66" order="2"/>
-        <field id="tpd6" name="Duration" width="36" order="3"/>
-        <field id="tpd8" name="Coordinator" width="98" order="4"/>
+<?xml version="1.0" encoding="UTF-8"?><project name="IHEP ATLAS ITk Plan v2" company="" webLink="" view-date="2018-10-14" view-index="0" gantt-divider-location="2" resource-divider-location="255" version="2.8.9" locale="en">
+    <description><![CDATA[The ATLAS ITk-Strip project (Phase II Upgrade), which will be crucial to retain excellent tracking performance under the extremely harsh HL-LHC environment.  500 barrel strip modules consisting of radiation hard silicon sensors and readout ASIC chips will be built at IHEP Beijing.]]></description>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="15" order="0"/>
+        <field id="tpd4" name="Begin date" width="15" order="1"/>
+        <field id="tpd5" name="End date" width="15" order="2"/>
+        <field id="tpd6" name="Duration" width="15" order="3"/>
+        <field id="tpd8" name="Coordinator" width="15" order="4"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelLeft" value="name"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="234" order="0"/>
-        <field id="1" name="Default role" width="110" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -74,54 +75,82 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Cleanroom B106" color="#8cb6ce" meeting="false" start="2018-10-23" duration="28" complete="0" thirdDate="2018-10-15" thirdDate-constraint="0" expand="false">
-            <task id="1" name="BondJet820" color="#8cb6ce" meeting="false" start="2018-11-01" duration="15" complete="0" thirdDate="2018-11-01" thirdDate-constraint="0" expand="true"/>
-            <task id="18" name="CNC300" color="#8cb6ce" meeting="false" start="2018-11-22" duration="5" complete="0" thirdDate="2018-11-01" thirdDate-constraint="0" expand="true"/>
-            <task id="20" name="Probe Station" color="#8cb6ce" meeting="false" start="2018-11-01" duration="5" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="28" name="Climate Chamber" color="#8cb6ce" meeting="false" start="2018-11-01" duration="3" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="32" name="Warwick Cold Box" color="#8cb6ce" meeting="false" start="2018-11-01" duration="3" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="35" name="Air Compressor" color="#8cb6ce" meeting="false" start="2018-11-01" duration="5" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="39" name="Vacuum Pump" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="62" name="Vacuum Tank" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="65" name="Thermal Camera" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="67" name="Storage Box" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="69" name="Fume Extractor" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="71" name="Ultrasonic Cleaner" meeting="false" start="2018-10-23" duration="1" complete="0" expand="true"/>
-            <task id="72" name="Glue Dispenser" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="74" name="Pull Tester" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="76" name="Silent Cover" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="78" name="Glue desk with toxic air obsorber" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="80" name="Test benches" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="82" name="Stools" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="84" name="Optical table" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
-            <task id="85" name="Cleanroom ready" color="#8cb6ce" meeting="true" start="2018-11-30" duration="0" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Cleanroom B106" color="#8cb6ce" meeting="false" start="2018-11-01" duration="22" complete="0" thirdDate="2018-11-01" thirdDate-constraint="1" expand="true">
+            <task id="1" name="BondJet820" color="#8cb6ce" meeting="false" start="2018-11-01" duration="22" complete="0" thirdDate="2018-11-01" thirdDate-constraint="1" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="CNC300" color="#8cb6ce" meeting="false" start="2018-11-01" duration="22" complete="0" thirdDate="2018-11-01" thirdDate-constraint="1" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" name="Probe Station" color="#8cb6ce" meeting="false" start="2018-11-01" duration="22" complete="0" thirdDate="2018-11-01" thirdDate-constraint="1" expand="true"/>
+            <task id="28" name="Climate Chamber" color="#8cb6ce" meeting="false" start="2018-11-01" duration="22" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Warwick Cold Box" color="#8cb6ce" meeting="false" start="2018-11-01" duration="22" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="35" name="Air Compressor" color="#8cb6ce" meeting="false" start="2018-11-01" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" name="Vacuum Pump" color="#8cb6ce" meeting="false" start="2018-11-01" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="62" name="Vacuum Tank" color="#8cb6ce" meeting="false" start="2018-11-01" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="65" name="Thermal Camera" color="#8cb6ce" meeting="false" start="2018-11-01" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="67" name="Storage Box" color="#8cb6ce" meeting="false" start="2018-11-01" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="69" name="Fume Extractor" color="#8cb6ce" meeting="false" start="2018-11-01" duration="12" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="71" name="Ultrasonic Cleaner" color="#8cb6ce" meeting="false" start="2018-11-01" duration="12" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="72" name="Glue Dispenser" color="#8cb6ce" meeting="false" start="2018-11-01" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="74" name="Pull Tester" color="#8cb6ce" meeting="false" start="2018-11-01" duration="17" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="76" name="Silent Cover" color="#8cb6ce" meeting="false" start="2018-11-01" duration="17" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="78" name="Glue desk" color="#8cb6ce" meeting="false" start="2018-11-01" duration="12" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[ with toxic air obsorber]]></notes>
+            </task>
+            <task id="80" name="Test benches" color="#8cb6ce" meeting="false" start="2018-11-01" duration="12" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="82" name="Stools" color="#8cb6ce" meeting="false" start="2018-11-01" duration="12" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="84" name="Optical table" color="#8cb6ce" meeting="false" start="2018-11-01" duration="17" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="85" name="Cleanroom ready" color="#8cb6ce" meeting="true" start="2018-12-03" duration="0" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true">
                 <depend id="87" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="87" name="Dummy Module" meeting="false" start="2018-11-30" duration="3" complete="0" expand="true">
+        <task id="87" name="Dummy Module" color="#009999" meeting="false" start="2018-12-03" duration="5" complete="0" thirdDate="2018-12-03" thirdDate-constraint="0" expand="true">
             <depend id="88" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="88" name="Mechanical Module" meeting="false" start="2018-12-05" duration="3" complete="0" expand="true">
+        <task id="88" name="Mechanical Module" color="#009999" meeting="false" start="2018-12-10" duration="5" complete="0" thirdDate="2018-12-10" thirdDate-constraint="0" expand="true">
             <depend id="89" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="89" name="Electric Module" meeting="false" start="2018-12-10" duration="4" complete="0" expand="true">
-            <task id="90" name="Hybrid" meeting="false" start="2018-12-10" duration="1" complete="0" expand="true">
+        <task id="89" name="Electric Module" color="#000000" meeting="false" start="2018-12-17" duration="19" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true">
+            <task id="90" name="Hybrid" color="#000000" meeting="false" start="2018-12-17" duration="12" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="false">
                 <depend id="91" type="2" difference="0" hardness="Strong"/>
-                <task id="95" name="Reception test" meeting="false" start="2018-12-10" duration="1" complete="0" expand="true"/>
-                <task id="96" name="Glue ASIC" meeting="false" start="2018-12-10" duration="1" complete="0" expand="true"/>
-                <task id="97" name="Wirebond ASIC to Hybrid" meeting="false" start="2018-12-10" duration="1" complete="0" expand="true"/>
-                <task id="98" name="Long term test" meeting="false" start="2018-12-10" duration="1" complete="0" expand="true"/>
+                <task id="95" name="Reception test" color="#009999" meeting="false" start="2018-12-17" duration="3" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true">
+                    <depend id="96" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="96" name="Glue ASIC" color="#009999" meeting="false" start="2018-12-20" duration="3" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true">
+                    <depend id="97" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="97" name="Wirebond ASIC to Hybrid" color="#009999" meeting="false" start="2018-12-25" duration="3" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true">
+                    <depend id="98" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="98" name="hybrid electric test" color="#009999" meeting="false" start="2018-12-28" duration="3" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true">
+                    <depend id="91" type="2" difference="0" hardness="Strong"/>
+                </task>
             </task>
-            <task id="91" name="Glue hybrid to sensor" meeting="false" start="2018-12-11" duration="1" complete="0" expand="true">
+            <task id="91" name="Glue hybrid to sensor" color="#009999" meeting="false" start="2019-01-03" duration="2" complete="0" thirdDate="2019-01-03" thirdDate-constraint="0" expand="true">
                 <depend id="92" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="92" name="Wirebond ASICs to sensor" meeting="false" start="2018-12-12" duration="1" complete="0" expand="true">
-                <depend id="101" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="101" name="Powerboard" meeting="false" start="2018-12-13" duration="1" complete="0" expand="true">
+            <task id="92" name="Wirebond ASICs to sensor" color="#009999" meeting="false" start="2019-01-07" duration="3" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
                 <depend id="94" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="94" name="Pass electrical test" color="#8cb6ce" meeting="true" start="2018-12-14" duration="0" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true"/>
+            <task id="94" name="Module electrical test" color="#8cb6ce" meeting="false" start="2019-01-10" duration="2" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true">
+                <depend id="289" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="289" name="Done first eletrical module" color="#009999" meeting="true" start="2019-01-14" duration="0" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -133,23 +162,37 @@
     </resources>
     <allocations>
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="1" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="2" responsible="true" load="80.0"/>
         <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="80" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="82" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="90" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="95" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="98" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="94" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="85" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="289" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="0" resource-id="1" function="1" responsible="false" load="50.0"/>
         <allocation task-id="32" resource-id="1" function="1" responsible="true" load="100.0"/>
         <allocation task-id="39" resource-id="1" function="1" responsible="true" load="100.0"/>
         <allocation task-id="62" resource-id="1" function="1" responsible="true" load="100.0"/>
         <allocation task-id="76" resource-id="1" function="1" responsible="true" load="100.0"/>
-        <allocation task-id="1" resource-id="2" function="1" responsible="false" load="80.0"/>
+        <allocation task-id="65" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="88" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="96" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="1" responsible="false" load="20.0"/>
         <allocation task-id="74" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="97" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="2" function="1" responsible="true" load="100.0"/>
         <allocation task-id="0" resource-id="3" function="1" responsible="false" load="10.0"/>
         <allocation task-id="28" resource-id="3" function="1" responsible="true" load="100.0"/>
-        <allocation task-id="65" resource-id="3" function="1" responsible="true" load="100.0"/>
         <allocation task-id="67" resource-id="3" function="1" responsible="true" load="100.0"/>
         <allocation task-id="72" resource-id="3" function="1" responsible="true" load="100.0"/>
         <allocation task-id="84" resource-id="3" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="71" resource-id="3" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="3" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="91" resource-id="3" function="1" responsible="true" load="100.0"/>
         <allocation task-id="20" resource-id="4" function="1" responsible="true" load="100.0"/>
         <allocation task-id="35" resource-id="4" function="1" responsible="true" load="100.0"/>
         <allocation task-id="69" resource-id="4" function="1" responsible="true" load="100.0"/>
